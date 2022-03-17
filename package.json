@@ -1,0 +1,12 @@
+{
+  "name": "shuddhhindi",
+  "version": "1.0.0",
+  "description": "Shuddha hindi movement api",
+  "main": "index.js",
+  "author": "Doctor Co",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
