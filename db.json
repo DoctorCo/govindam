@@ -1,761 +1,1014 @@
-{
-  "aadat": {
-    "alt": "aacharan"
-  },
-  "aadmi": {
-    "alt": "vyakti"
-  },
-  "aadmiyat": {
-    "alt": "manushyata"
-  },
-  "aafat": {
-    "alt": "aapdaa"
-  },
-  "aarzoo": {
-    "alt": "ichchha"
-  },
-  "aasaan": {
-    "alt": "saral"
-  },
-  "aashiq": {
-    "alt": "premi"
-  },
-  "aasmaan": {
-    "alt": "aakash"
-  },
-  "agar": {
-    "alt": "yadi"
-  },
-  "ailaan": {
-    "alt": "ghoshna"
-  },
-  "ajeeb": {
-    "alt": "vichitra"
-  },
-  "akal": {
-    "alt": "buddhi"
-  },
-  "akhbaar": {
-    "alt": "samacharpatra"
-  },
-  "alawa": {
-    "alt": "atirikt"
-  },
-  "amir": {
-    "alt": "dhanvaan"
-  },
-  "andaza": {
-    "alt": "anuman"
-  },
-  "asar": {
-    "alt": "prabhaav"
-  },
-  "aulaad": {
-    "alt": "santaan"
-  },
-  "aurat": {
-    "alt": "stree"
-  },
-  "azaadi": {
-    "alt": "swatantrata"
-  },
-  "baazu": {
-    "alt": "bhuja"
-  },
-  "bachcha": {
-    "alt": "baalak"
-  },
-  "badbu": {
-    "alt": "durgandh"
-  },
-  "badla": {
-    "alt": "pratishodh"
-  },
-  "badlaav": {
-    "alt": "parivartan"
-  },
-  "badtameeji": {
-    "alt": "dhristata"
-  },
-  "bahtareen": {
-    "alt": "uttam"
-  },
-  "barbaad": {
-    "alt": "nasht"
-  },
-  "beizzatti": {
-    "alt": "apmaan"
-  },
-  "bekaar": {
-    "alt": "vyarth"
-  },
-  "bhaijaan": {
-    "alt": "bhrata"
-  },
-  "bimaari": {
-    "alt": "rog"
-  },
-  "biwi": {
-    "alt": "patni"
-  },
-  "chehra": {
-    "alt": "mookh"
-  },
-  "chutti": {
-    "alt": "avakash"
-  },
-  "daad": {
-    "alt": "prashansa"
-  },
-  "daag": {
-    "alt": "kalank"
-  },
-  "daam": {
-    "alt": "moolya"
-  },
-  "daftar": {
-    "alt": "karyalaya"
-  },
-  "dar": {
-    "alt": "bhay"
-  },
-  "dard": {
-    "alt": "peeda"
-  },
-  "dariya": {
-    "alt": "nadi"
-  },
-  "daulat": {
-    "alt": "sampatti"
-  },
-  "dawa": {
-    "alt": "aushadhi"
-  },
-  "dil": {
-    "alt": "hriday"
-  },
-  "dimaag": {
-    "alt": "mastishq"
-  },
-  "dost": {
-    "alt": "mitra"
-  },
-  "doston": {
-    "alt": "mitron"
-  },
-  "duniya": {
-    "alt": "vishwa"
-  },
-  "dushman": {
-    "alt": "shatru"
-  },
-  "ehsaan": {
-    "alt": "upkaar"
-  },
-  "ehsaas": {
-    "alt": "bhavna"
-  },
-  "faasla": {
-    "alt": "antar"
-  },
-  "faayada": {
-    "alt": "laabh"
-  },
-  "faisla": {
-    "alt": "nirnay"
-  },
-  "farmaan": {
-    "alt": "raajghoshna"
-  },
-  "farmaish": {
-    "alt": "iccha"
-  },
-  "farz": {
-    "alt": "kartavya"
-  },
-  "fateh": {
-    "alt": "vijay"
-  },
-  "fauj": {
-    "alt": "sena"
-  },
-  "fauji": {
-    "alt": "sainik"
-  },
-  "fida": {
-    "alt": "shradhha"
-  },
-  "gaddar": {
-    "alt": "drohi"
-  },
-  "garam": {
-    "alt": "ushna"
-  },
-  "garib": {
-    "alt": "deen"
-  },
-  "gunah": {
-    "alt": "apraadh"
-  },
-  "haal": {
-    "alt": "dasha"
-  },
-  "haalat": {
-    "alt": "stithi"
-  },
-  "haasil": {
-    "alt": "prapt"
-  },
-  "hafta": {
-    "alt": "saptaah"
-  },
-  "hairaan": {
-    "alt": "achambit"
-  },
-  "hamesha": {
-    "alt": "sadaiva"
-  },
-  "hamla": {
-    "alt": "aakraman"
-  },
-  "hamlaa": {
-    "alt": "aakraman"
-  },
-  "haq": {
-    "alt": "adhikaar"
-  },
-  "haqiqat": {
-    "alt": "vaastavikta"
-  },
-  "hargiz": {
-    "alt": "kadaapi"
-  },
-  "hawa": {
-    "alt": "vayu"
-  },
-  "hazaar": {
-    "alt": "sahastra"
-  },
-  "hifazat": {
-    "alt": "raksha"
-  },
-  "hindustan": {
-    "alt": "bharat"
-  },
-  "hissa": {
-    "alt": "bhaag"
-  },
-  "hoshiyaar": {
-    "alt": "teevrabuddhi"
-  },
-  "ijaat": {
-    "alt": "avishkaar"
-  },
-  "ijazat": {
-    "alt": "anumati"
-  },
-  "ilaaj": {
-    "alt": "upchaar"
-  },
-  "imaan": {
-    "alt": "vishwaas"
-  },
-  "imaarat": {
-    "alt": "bhavan"
-  },
-  "imandaar": {
-    "alt": "nishtavaan"
-  },
-  "imtehaan": {
-    "alt": "pariksha"
-  },
-  "inkar": {
-    "alt": "virodh"
-  },
-  "insaan": {
-    "alt": "maanav"
-  },
-  "intakaam": {
-    "alt": "pratishodh"
-  },
-  "intezaam": {
-    "alt": "vyavastha"
-  },
-  "intezaar": {
-    "alt": "pratiksha"
-  },
-  "ishaara": {
-    "alt": "sanket"
-  },
-  "ishtehaar": {
-    "alt": "vigyapan"
-  },
-  "istemaal": {
-    "alt": "upayog"
-  },
-  "ittefaq": {
-    "alt": "sanyog"
-  },
-  "izzat": {
-    "alt": "yash"
-  },
-  "jaanwar": {
-    "alt": "pashu"
-  },
-  "jagah": {
-    "alt": "sthan"
-  },
-  "jahaan": {
-    "alt": "vishwa"
-  },
-  "jarur": {
-    "alt": "avashya"
-  },
-  "jarurat": {
-    "alt": "avashyakta"
-  },
-  "jaruri": {
-    "alt": "avashyak"
-  },
-  "jashna": {
-    "alt": "utsav"
-  },
-  "jawaab": {
-    "alt": "uttar"
-  },
-  "jawaan": {
-    "alt": "yuva"
-  },
-  "kaabil": {
-    "alt": "samarth"
-  },
-  "kaafi": {
-    "alt": "paryaapt"
-  },
-  "kaamyaab": {
-    "alt": "safal"
-  },
-  "kaamyabi": {
-    "alt": "safalta"
-  },
-  "kabool": {
-    "alt": "swikaar"
-  },
-  "kamzor": {
-    "alt": "nirbal"
-  },
-  "karz": {
-    "alt": "udhaar"
-  },
-  "khaandaan": {
-    "alt": "gharana"
-  },
-  "khaasiyat": {
-    "alt": "visheshta"
-  },
-  "khali": {
-    "alt": "rikt"
-  },
-  "khamosh": {
-    "alt": "maun"
-  },
-  "khana": {
-    "alt": "bhojan"
-  },
-  "khandaan": {
-    "alt": "vansh"
-  },
-  "kharab": {
-    "alt": "akushal"
-  },
-  "khareedna": {
-    "alt": "molna"
-  },
-  "khatarnaak": {
-    "alt": "sankatmay"
-  },
-  "khatra": {
-    "alt": "sankat"
-  },
-  "khilaaf": {
-    "alt": "viruddh"
-  },
-  "khof": {
-    "alt": "bhay"
-  },
-  "khoobi": {
-    "alt": "visheshta"
-  },
-  "khoon": {
-    "alt": "rakt"
-  },
-  "khud": {
-    "alt": "swayam"
-  },
-  "khudko": {
-    "alt": "swayam"
-  },
-  "khudse": {
-    "alt": "swayam"
-  },
-  "khusbu": {
-    "alt": "sugandh"
-  },
-  "khush": {
-    "alt": "prasann"
-  },
-  "khushi": {
-    "alt": "prasannata"
-  },
-  "khwab": {
-    "alt": "sapna"
-  },
-  "kism": {
-    "alt": "prakaar"
-  },
-  "kismat": {
-    "alt": "bhagya"
-  },
-  "kitaab": {
-    "alt": "pustak"
-  },
-  "koshish": {
-    "alt": "prayaas"
-  },
-  "kusur": {
-    "alt": "dosh"
-  },
-  "ladka": {
-    "alt": "baalak"
-  },
-  "ladki": {
-    "alt": "kanya"
-  },
-  "larka": {
-    "alt": "baalak"
-  },
-  "larki": {
-    "alt": "kanya"
-  },
-  "maaf": {
-    "alt": "kshama"
-  },
-  "maalik": {
-    "alt": "swami"
-  },
-  "madad": {
-    "alt": "sahayata"
-  },
-  "mahaul": {
-    "alt": "vatavaran"
-  },
-  "mahina": {
-    "alt": "maah"
-  },
-  "mahol": {
-    "alt": "vatavaran"
-  },
-  "mahsoos": {
-    "alt": "anubhuti"
-  },
-  "majboor": {
-    "alt": "vivash"
-  },
-  "manzil": {
-    "alt": "gantavya"
-  },
-  "maqsad": {
-    "alt": "uddeshya"
-  },
-  "mard": {
-    "alt": "purush"
-  },
-  "mareez": {
-    "alt": "rogi"
-  },
-  "mashhoor": {
-    "alt": "prashiddha"
-  },
-  "masla": {
-    "alt": "samasya"
-  },
-  "matlab": {
-    "alt": "taatparya"
-  },
-  "mausam": {
-    "alt": "rutu"
-  },
-  "maut": {
-    "alt": "mrytyu"
-  },
-  "maza": {
-    "alt": "aanand"
-  },
-  "mazaa": {
-    "alt": "anand"
-  },
-  "meharbaan": {
-    "alt": "dayalu"
-  },
-  "mijaaz": {
-    "alt": "swabhaav"
-  },
-  "mubarak": {
-    "alt": "badhai"
-  },
-  "mulayam": {
-    "alt": "komal"
-  },
-  "mumkin": {
-    "alt": "sambhav"
-  },
-  "mushkil": {
-    "alt": "kathin"
-  },
-  "musibat": {
-    "alt": "sankat"
-  },
-  "naach": {
-    "alt": "nritya"
-  },
-  "naacheez": {
-    "alt": "tuchchh"
-  },
-  "naainsaafi": {
-    "alt": "anyaaya"
-  },
-  "naamanzur": {
-    "alt": "varjit"
-  },
-  "naata": {
-    "alt": "sambandh"
-  },
-  "naayaab": {
-    "alt": "durlabh"
-  },
-  "nadan": {
-    "alt": "agyaat"
-  },
-  "nafrat": {
-    "alt": "ghrina"
-  },
-  "najaayaz": {
-    "alt": "anuchit"
-  },
-  "nakli": {
-    "alt": "kritrim"
-  },
-  "nalayak": {
-    "alt": "ayogya"
-  },
-  "naraaz": {
-    "alt": "aprasann"
-  },
-  "nasseb": {
-    "alt": "bhagya"
-  },
-  "naubat": {
-    "alt": "samay"
-  },
-  "naukar": {
-    "alt": "sevak"
-  },
-  "naya": {
-    "alt": "nav"
-  },
-  "nazar": {
-    "alt": "drishti"
-  },
-  "nazdeek": {
-    "alt": "sameep"
-  },
-  "nek": {
-    "alt": "punyaatma"
-  },
-  "nigaah": {
-    "alt": "drishti"
-  },
-  "nishan": {
-    "alt": "chinha"
-  },
-  "noor": {
-    "alt": "prakash"
-  },
-  "paagal": {
-    "alt": "moorkh"
-  },
-  "paani": {
-    "alt": "jal"
-  },
-  "paimaan": {
-    "alt": "vachan"
-  },
-  "pal": {
-    "alt": "kshan"
-  },
-  "panaah": {
-    "alt": "sharan"
-  },
-  "pareshaan": {
-    "alt": "vyakul"
-  },
-  "pasand": {
-    "alt": "swikrit"
-  },
-  "paseena": {
-    "alt": "shwed"
-  },
-  "pesha": {
-    "alt": "vyavasaya"
-  },
-  "peshaab": {
-    "alt": "mootra"
-  },
-  "rishta": {
-    "alt": "sambandh"
-  },
-  "saal": {
-    "alt": "varsh"
-  },
-  "saalana": {
-    "alt": "vaarshik"
-  },
-  "saalgirah": {
-    "alt": "varshgaanth"
-  },
-  "sabra": {
-    "alt": "dhairya"
-  },
-  "sau": {
-    "alt": "shat"
-  },
-  "sawaal": {
-    "alt": "prashna"
-  },
-  "sawal": {
-    "alt": "prashna"
-  },
-  "shaadi": {
-    "alt": "vivaah"
-  },
-  "shaam": {
-    "alt": "sandhya"
-  },
-  "shahar": {
-    "alt": "nagar"
-  },
-  "shaheed": {
-    "alt": "veergati"
-  },
-  "sharaab": {
-    "alt": "madira"
-  },
-  "shayad": {
-    "alt": "kadachit"
-  },
-  "sheesha": {
-    "alt": "darpan"
-  },
-  "shukriya": {
-    "alt": "dhanyavaad"
-  },
-  "sirf": {
-    "alt": "maatra"
-  },
-  "sust": {
-    "alt": "mand"
-  },
-  "taaj": {
-    "alt": "mukut"
-  },
-  "taareekh": {
-    "alt": "tithi"
-  },
-  "tabdeel": {
-    "alt": "parivartit"
-  },
-  "tabiyat": {
-    "alt": "swasthya"
-  },
-  "takat": {
-    "alt": "shakti"
-  },
-  "takdeer": {
-    "alt": "bhagya"
-  },
-  "takht": {
-    "alt": "singhasan"
-  },
-  "takleef": {
-    "alt": "kasht"
-  },
-  "tandurust": {
-    "alt": "svasth"
-  },
-  "taraf": {
-    "alt": "disha"
-  },
-  "tasveer": {
-    "alt": "chitra"
-  },
-  "tohfa": {
-    "alt": "uphaar"
-  },
-  "ujaad": {
-    "alt": "banjar"
-  },
-  "umdaa": {
-    "alt": "achchha"
-  },
-  "ummed": {
-    "alt": "apeksha"
-  },
-  "umra": {
-    "alt": "aayu"
-  },
-  "vaadaa": {
-    "alt": "vachan"
-  },
-  "vaapas": {
-    "alt": "punar-aagaman"
-  },
-  "waqt": {
-    "alt": "samay"
-  },
-  "yakeen": {
-    "alt": "vishwas"
-  },
-  "zabaan": {
-    "alt": "jeebh"
-  },
-  "zameen": {
-    "alt": "bhumi"
-  },
-  "zameer": {
-    "alt": "antahakaran"
-  },
-  "zaroor": {
-    "alt": "avashya"
-  },
-  "zaroori": {
-    "alt": "aavashyak"
-  },
-  "zehar": {
-    "alt": "vish"
-  },
-  "zikr": {
-    "alt": "ullekh"
-  },
-  "zimmedaari": {
-    "alt": "uttardayitva"
-  },
-  "zindagi": {
-    "alt": "jeevan"
-  },
-  "hi": {
-    "alt": "<:RamRam:953983984147255326> Ram Ram Bhrata"
-  },
-  "hello": {
-    "alt": "Namaskaram"
-  }
-}
+[
+    {
+        "wrong": "aadat",
+        "right": "aacharan"
+    },
+    {
+        "wrong": "aadmi",
+        "right": "vyakti"
+    },
+    {
+        "wrong": "aadmiyat",
+        "right": "manushyata"
+    },
+    {
+        "wrong": "aafat",
+        "right": "aapdaa"
+    },
+    {
+        "wrong": "aarzoo",
+        "right": "ichchha"
+    },
+    {
+        "wrong": "aasaan",
+        "right": "saral"
+    },
+    {
+        "wrong": "aashiq",
+        "right": "premi"
+    },
+    {
+        "wrong": "aasmaan",
+        "right": "aakash"
+    },
+    {
+        "wrong": "agar",
+        "right": "yadi"
+    },
+    {
+        "wrong": "ailaan",
+        "right": "ghoshna"
+    },
+    {
+        "wrong": "ajeeb",
+        "right": "vichitra"
+    },
+    {
+        "wrong": "akal",
+        "right": "buddhi"
+    },
+    {
+        "wrong": "akhbaar",
+        "right": "samacharpatra"
+    },
+    {
+        "wrong": "alawa",
+        "right": "atirikt"
+    },
+    {
+        "wrong": "amir",
+        "right": "dhanvaan"
+    },
+    {
+        "wrong": "andaza",
+        "right": "anuman"
+    },
+    {
+        "wrong": "asar",
+        "right": "prabhaav"
+    },
+    {
+        "wrong": "aulaad",
+        "right": "santaan"
+    },
+    {
+        "wrong": "aurat",
+        "right": "stree"
+    },
+    {
+        "wrong": "azaadi",
+        "right": "swatantrata"
+    },
+    {
+        "wrong": "baazu",
+        "right": "bhuja"
+    },
+    {
+        "wrong": "bachcha",
+        "right": "baalak"
+    },
+    {
+        "wrong": "badbu",
+        "right": "durgandh"
+    },
+    {
+        "wrong": "badla",
+        "right": "pratishodh"
+    },
+    {
+        "wrong": "badlaav",
+        "right": "parivartan"
+    },
+    {
+        "wrong": "badtameeji",
+        "right": "dhristata"
+    },
+    {
+        "wrong": "bahtareen",
+        "right": "uttam"
+    },
+    {
+        "wrong": "barbaad",
+        "right": "nasht"
+    },
+    {
+        "wrong": "beizzatti",
+        "right": "apmaan"
+    },
+    {
+        "wrong": "bekaar",
+        "right": "vyarth"
+    },
+    {
+        "wrong": "bhaijaan",
+        "right": "bhrata"
+    },
+    {
+        "wrong": "bimaari",
+        "right": "rog"
+    },
+    {
+        "wrong": "biwi",
+        "right": "patni"
+    },
+    {
+        "wrong": "chehra",
+        "right": "mookh"
+    },
+    {
+        "wrong": "chutti",
+        "right": "avakash"
+    },
+    {
+        "wrong": "daad",
+        "right": "prashansa"
+    },
+    {
+        "wrong": "daag",
+        "right": "kalank"
+    },
+    {
+        "wrong": "daam",
+        "right": "moolya"
+    },
+    {
+        "wrong": "daftar",
+        "right": "karyalaya"
+    },
+    {
+        "wrong": "dar",
+        "right": "bhay"
+    },
+    {
+        "wrong": "dard",
+        "right": "peeda"
+    },
+    {
+        "wrong": "dariya",
+        "right": "nadi"
+    },
+    {
+        "wrong": "daulat",
+        "right": "sampatti"
+    },
+    {
+        "wrong": "dawa",
+        "right": "aushadhi"
+    },
+    {
+        "wrong": "dil",
+        "right": "hriday"
+    },
+    {
+        "wrong": "dimaag",
+        "right": "mastishq"
+    },
+    {
+        "wrong": "dost",
+        "right": "mitra"
+    },
+    {
+        "wrong": "doston",
+        "right": "mitron"
+    },
+    {
+        "wrong": "duniya",
+        "right": "vishwa"
+    },
+    {
+        "wrong": "dushman",
+        "right": "shatru"
+    },
+    {
+        "wrong": "ehsaan",
+        "right": "upkaar"
+    },
+    {
+        "wrong": "ehsaas",
+        "right": "bhavna"
+    },
+    {
+        "wrong": "faasla",
+        "right": "antar"
+    },
+    {
+        "wrong": "faayada",
+        "right": "laabh"
+    },
+    {
+        "wrong": "faisla",
+        "right": "nirnay"
+    },
+    {
+        "wrong": "farmaan",
+        "right": "raajghoshna"
+    },
+    {
+        "wrong": "farmaish",
+        "right": "iccha"
+    },
+    {
+        "wrong": "farz",
+        "right": "kartavya"
+    },
+    {
+        "wrong": "fateh",
+        "right": "vijay"
+    },
+    {
+        "wrong": "fauj",
+        "right": "sena"
+    },
+    {
+        "wrong": "fauji",
+        "right": "sainik"
+    },
+    {
+        "wrong": "fida",
+        "right": "shradhha"
+    },
+    {
+        "wrong": "gaddar",
+        "right": "drohi"
+    },
+    {
+        "wrong": "garam",
+        "right": "ushna"
+    },
+    {
+        "wrong": "garib",
+        "right": "deen"
+    },
+    {
+        "wrong": "gunah",
+        "right": "apraadh"
+    },
+    {
+        "wrong": "haal",
+        "right": "dasha"
+    },
+    {
+        "wrong": "haalat",
+        "right": "stithi"
+    },
+    {
+        "wrong": "haasil",
+        "right": "prapt"
+    },
+    {
+        "wrong": "hafta",
+        "right": "saptaah"
+    },
+    {
+        "wrong": "hairaan",
+        "right": "achambit"
+    },
+    {
+        "wrong": "hamesha",
+        "right": "sadaiva"
+    },
+    {
+        "wrong": "hamla",
+        "right": "aakraman"
+    },
+    {
+        "wrong": "hamlaa",
+        "right": "aakraman"
+    },
+    {
+        "wrong": "haq",
+        "right": "adhikaar"
+    },
+    {
+        "wrong": "haqiqat",
+        "right": "vaastavikta"
+    },
+    {
+        "wrong": "hargiz",
+        "right": "kadaapi"
+    },
+    {
+        "wrong": "hawa",
+        "right": "vayu"
+    },
+    {
+        "wrong": "hazaar",
+        "right": "sahastra"
+    },
+    {
+        "wrong": "hifazat",
+        "right": "raksha"
+    },
+    {
+        "wrong": "hindustan",
+        "right": "bharat"
+    },
+    {
+        "wrong": "hissa",
+        "right": "bhaag"
+    },
+    {
+        "wrong": "hoshiyaar",
+        "right": "teevrabuddhi"
+    },
+    {
+        "wrong": "ijaat",
+        "right": "avishkaar"
+    },
+    {
+        "wrong": "ijazat",
+        "right": "anumati"
+    },
+    {
+        "wrong": "ilaaj",
+        "right": "upchaar"
+    },
+    {
+        "wrong": "imaan",
+        "right": "vishwaas"
+    },
+    {
+        "wrong": "imaarat",
+        "right": "bhavan"
+    },
+    {
+        "wrong": "imandaar",
+        "right": "nishtavaan"
+    },
+    {
+        "wrong": "imtehaan",
+        "right": "pariksha"
+    },
+    {
+        "wrong": "inkar",
+        "right": "virodh"
+    },
+    {
+        "wrong": "insaan",
+        "right": "maanav"
+    },
+    {
+        "wrong": "intakaam",
+        "right": "pratishodh"
+    },
+    {
+        "wrong": "intezaam",
+        "right": "vyavastha"
+    },
+    {
+        "wrong": "intezaar",
+        "right": "pratiksha"
+    },
+    {
+        "wrong": "ishaara",
+        "right": "sanket"
+    },
+    {
+        "wrong": "ishtehaar",
+        "right": "vigyapan"
+    },
+    {
+        "wrong": "istemaal",
+        "right": "upayog"
+    },
+    {
+        "wrong": "ittefaq",
+        "right": "sanyog"
+    },
+    {
+        "wrong": "izzat",
+        "right": "yash"
+    },
+    {
+        "wrong": "jaanwar",
+        "right": "pashu"
+    },
+    {
+        "wrong": "jagah",
+        "right": "sthan"
+    },
+    {
+        "wrong": "jahaan",
+        "right": "vishwa"
+    },
+    {
+        "wrong": "jarur",
+        "right": "avashya"
+    },
+    {
+        "wrong": "jarurat",
+        "right": "avashyakta"
+    },
+    {
+        "wrong": "jaruri",
+        "right": "avashyak"
+    },
+    {
+        "wrong": "jashna",
+        "right": "utsav"
+    },
+    {
+        "wrong": "jawaab",
+        "right": "uttar"
+    },
+    {
+        "wrong": "jawaan",
+        "right": "yuva"
+    },
+    {
+        "wrong": "kaabil",
+        "right": "samarth"
+    },
+    {
+        "wrong": "kaafi",
+        "right": "paryaapt"
+    },
+    {
+        "wrong": "kaamyaab",
+        "right": "safal"
+    },
+    {
+        "wrong": "kaamyabi",
+        "right": "safalta"
+    },
+    {
+        "wrong": "kabool",
+        "right": "swikaar"
+    },
+    {
+        "wrong": "kamzor",
+        "right": "nirbal"
+    },
+    {
+        "wrong": "karz",
+        "right": "udhaar"
+    },
+    {
+        "wrong": "khaandaan",
+        "right": "gharana"
+    },
+    {
+        "wrong": "khaasiyat",
+        "right": "visheshta"
+    },
+    {
+        "wrong": "khali",
+        "right": "rikt"
+    },
+    {
+        "wrong": "khamosh",
+        "right": "maun"
+    },
+    {
+        "wrong": "khana",
+        "right": "bhojan"
+    },
+    {
+        "wrong": "khandaan",
+        "right": "vansh"
+    },
+    {
+        "wrong": "kharab",
+        "right": "akushal"
+    },
+    {
+        "wrong": "khareedna",
+        "right": "molna"
+    },
+    {
+        "wrong": "khatarnaak",
+        "right": "sankatmay"
+    },
+    {
+        "wrong": "khatra",
+        "right": "sankat"
+    },
+    {
+        "wrong": "khilaaf",
+        "right": "viruddh"
+    },
+    {
+        "wrong": "khof",
+        "right": "bhay"
+    },
+    {
+        "wrong": "khoobi",
+        "right": "visheshta"
+    },
+    {
+        "wrong": "khoon",
+        "right": "rakt"
+    },
+    {
+        "wrong": "khud",
+        "right": "swayam"
+    },
+    {
+        "wrong": "khudko",
+        "right": "swayam"
+    },
+    {
+        "wrong": "khudse",
+        "right": "swayam"
+    },
+    {
+        "wrong": "khusbu",
+        "right": "sugandh"
+    },
+    {
+        "wrong": "khush",
+        "right": "prasann"
+    },
+    {
+        "wrong": "khushi",
+        "right": "prasannata"
+    },
+    {
+        "wrong": "khwab",
+        "right": "sapna"
+    },
+    {
+        "wrong": "kism",
+        "right": "prakaar"
+    },
+    {
+        "wrong": "kismat",
+        "right": "bhagya"
+    },
+    {
+        "wrong": "kitaab",
+        "right": "pustak"
+    },
+    {
+        "wrong": "koshish",
+        "right": "prayaas"
+    },
+    {
+        "wrong": "kusur",
+        "right": "dosh"
+    },
+    {
+        "wrong": "ladka",
+        "right": "baalak"
+    },
+    {
+        "wrong": "ladki",
+        "right": "kanya"
+    },
+    {
+        "wrong": "larka",
+        "right": "baalak"
+    },
+    {
+        "wrong": "larki",
+        "right": "kanya"
+    },
+    {
+        "wrong": "maaf",
+        "right": "kshama"
+    },
+    {
+        "wrong": "maalik",
+        "right": "swami"
+    },
+    {
+        "wrong": "madad",
+        "right": "sahayata"
+    },
+    {
+        "wrong": "mahaul",
+        "right": "vatavaran"
+    },
+    {
+        "wrong": "mahina",
+        "right": "maah"
+    },
+    {
+        "wrong": "mahol",
+        "right": "vatavaran"
+    },
+    {
+        "wrong": "mahsoos",
+        "right": "anubhuti"
+    },
+    {
+        "wrong": "majboor",
+        "right": "vivash"
+    },
+    {
+        "wrong": "manzil",
+        "right": "gantavya"
+    },
+    {
+        "wrong": "maqsad",
+        "right": "uddeshya"
+    },
+    {
+        "wrong": "mard",
+        "right": "purush"
+    },
+    {
+        "wrong": "mareez",
+        "right": "rogi"
+    },
+    {
+        "wrong": "mashhoor",
+        "right": "prashiddha"
+    },
+    {
+        "wrong": "masla",
+        "right": "samasya"
+    },
+    {
+        "wrong": "matlab",
+        "right": "taatparya"
+    },
+    {
+        "wrong": "mausam",
+        "right": "rutu"
+    },
+    {
+        "wrong": "maut",
+        "right": "mrytyu"
+    },
+    {
+        "wrong": "maza",
+        "right": "aanand"
+    },
+    {
+        "wrong": "mazaa",
+        "right": "anand"
+    },
+    {
+        "wrong": "meharbaan",
+        "right": "dayalu"
+    },
+    {
+        "wrong": "mijaaz",
+        "right": "swabhaav"
+    },
+    {
+        "wrong": "mubarak",
+        "right": "badhai"
+    },
+    {
+        "wrong": "mulayam",
+        "right": "komal"
+    },
+    {
+        "wrong": "mumkin",
+        "right": "sambhav"
+    },
+    {
+        "wrong": "mushkil",
+        "right": "kathin"
+    },
+    {
+        "wrong": "musibat",
+        "right": "sankat"
+    },
+    {
+        "wrong": "naach",
+        "right": "nritya"
+    },
+    {
+        "wrong": "naacheez",
+        "right": "tuchchh"
+    },
+    {
+        "wrong": "naainsaafi",
+        "right": "anyaaya"
+    },
+    {
+        "wrong": "naamanzur",
+        "right": "varjit"
+    },
+    {
+        "wrong": "naata",
+        "right": "sambandh"
+    },
+    {
+        "wrong": "naayaab",
+        "right": "durlabh"
+    },
+    {
+        "wrong": "nadan",
+        "right": "agyaat"
+    },
+    {
+        "wrong": "nafrat",
+        "right": "ghrina"
+    },
+    {
+        "wrong": "najaayaz",
+        "right": "anuchit"
+    },
+    {
+        "wrong": "nakli",
+        "right": "kritrim"
+    },
+    {
+        "wrong": "nalayak",
+        "right": "ayogya"
+    },
+    {
+        "wrong": "naraaz",
+        "right": "aprasann"
+    },
+    {
+        "wrong": "nasseb",
+        "right": "bhagya"
+    },
+    {
+        "wrong": "naubat",
+        "right": "samay"
+    },
+    {
+        "wrong": "naukar",
+        "right": "sevak"
+    },
+    {
+        "wrong": "naya",
+        "right": "nav"
+    },
+    {
+        "wrong": "nazar",
+        "right": "drishti"
+    },
+    {
+        "wrong": "nazdeek",
+        "right": "sameep"
+    },
+    {
+        "wrong": "nek",
+        "right": "punyaatma"
+    },
+    {
+        "wrong": "nigaah",
+        "right": "drishti"
+    },
+    {
+        "wrong": "nishan",
+        "right": "chinha"
+    },
+    {
+        "wrong": "noor",
+        "right": "prakash"
+    },
+    {
+        "wrong": "paagal",
+        "right": "moorkh"
+    },
+    {
+        "wrong": "paani",
+        "right": "jal"
+    },
+    {
+        "wrong": "paimaan",
+        "right": "vachan"
+    },
+    {
+        "wrong": "pal",
+        "right": "kshan"
+    },
+    {
+        "wrong": "panaah",
+        "right": "sharan"
+    },
+    {
+        "wrong": "pareshaan",
+        "right": "vyakul"
+    },
+    {
+        "wrong": "pasand",
+        "right": "swikrit"
+    },
+    {
+        "wrong": "paseena",
+        "right": "shwed"
+    },
+    {
+        "wrong": "pesha",
+        "right": "vyavasaya"
+    },
+    {
+        "wrong": "peshaab",
+        "right": "mootra"
+    },
+    {
+        "wrong": "rishta",
+        "right": "sambandh"
+    },
+    {
+        "wrong": "saal",
+        "right": "varsh"
+    },
+    {
+        "wrong": "saalana",
+        "right": "vaarshik"
+    },
+    {
+        "wrong": "saalgirah",
+        "right": "varshgaanth"
+    },
+    {
+        "wrong": "sabra",
+        "right": "dhairya"
+    },
+    {
+        "wrong": "sau",
+        "right": "shat"
+    },
+    {
+        "wrong": "sawaal",
+        "right": "prashna"
+    },
+    {
+        "wrong": "sawal",
+        "right": "prashna"
+    },
+    {
+        "wrong": "shaadi",
+        "right": "vivaah"
+    },
+    {
+        "wrong": "shaam",
+        "right": "sandhya"
+    },
+    {
+        "wrong": "shahar",
+        "right": "nagar"
+    },
+    {
+        "wrong": "shaheed",
+        "right": "veergati"
+    },
+    {
+        "wrong": "sharaab",
+        "right": "madira"
+    },
+    {
+        "wrong": "shayad",
+        "right": "kadachit"
+    },
+    {
+        "wrong": "sheesha",
+        "right": "darpan"
+    },
+    {
+        "wrong": "shukriya",
+        "right": "dhanyavaad"
+    },
+    {
+        "wrong": "sirf",
+        "right": "maatra"
+    },
+    {
+        "wrong": "sust",
+        "right": "mand"
+    },
+    {
+        "wrong": "taaj",
+        "right": "mukut"
+    },
+    {
+        "wrong": "taareekh",
+        "right": "tithi"
+    },
+    {
+        "wrong": "tabdeel",
+        "right": "parivartit"
+    },
+    {
+        "wrong": "tabiyat",
+        "right": "swasthya"
+    },
+    {
+        "wrong": "takat",
+        "right": "shakti"
+    },
+    {
+        "wrong": "takdeer",
+        "right": "bhagya"
+    },
+    {
+        "wrong": "takht",
+        "right": "singhasan"
+    },
+    {
+        "wrong": "takleef",
+        "right": "kasht"
+    },
+    {
+        "wrong": "tandurust",
+        "right": "svasth"
+    },
+    {
+        "wrong": "taraf",
+        "right": "disha"
+    },
+    {
+        "wrong": "tasveer",
+        "right": "chitra"
+    },
+    {
+        "wrong": "tohfa",
+        "right": "uphaar"
+    },
+    {
+        "wrong": "ujaad",
+        "right": "banjar"
+    },
+    {
+        "wrong": "umdaa",
+        "right": "achchha"
+    },
+    {
+        "wrong": "ummed",
+        "right": "apeksha"
+    },
+    {
+        "wrong": "umra",
+        "right": "aayu"
+    },
+    {
+        "wrong": "vaadaa",
+        "right": "vachan"
+    },
+    {
+        "wrong": "vaapas",
+        "right": "punar-aagaman"
+    },
+    {
+        "wrong": "waqt",
+        "right": "samay"
+    },
+    {
+        "wrong": "yakeen",
+        "right": "vishwas"
+    },
+    {
+        "wrong": "zabaan",
+        "right": "jeebh"
+    },
+    {
+        "wrong": "zameen",
+        "right": "bhumi"
+    },
+    {
+        "wrong": "zameer",
+        "right": "antahakaran"
+    },
+    {
+        "wrong": "zaroor",
+        "right": "avashya"
+    },
+    {
+        "wrong": "zaroori",
+        "right": "aavashyak"
+    },
+    {
+        "wrong": "zehar",
+        "right": "vish"
+    },
+    {
+        "wrong": "zikr",
+        "right": "ullekh"
+    },
+    {
+        "wrong": "zimmedaari",
+        "right": "uttardayitva"
+    },
+    {
+        "wrong": "zindagi",
+        "right": "jeevan"
+    },
+    {
+        "wrong": "hi",
+        "right": "<:RamRam:953983984147255326> Ram Ram Bhrata"
+    },
+    {
+        "wrong": "hello",
+        "right": "Namaskaram"
+    }
+]
