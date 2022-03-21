@@ -1,11 +1,12 @@
 const { Client } = require("discord.js");
-const { config } = require('dotenv');
-const messages = require('./db.json');
+const { config } = require("dotenv");
+const messages = require("./db.json");
 
 config();
 
 const bot = new Client({
   intents: 32767,
+  allowedMentions: { parse: ["users", "roles"], repliedUser: true },
 });
 
 bot.on("ready", () => {
@@ -15,11 +16,17 @@ bot.on("ready", () => {
 bot.on("messageCreate", (message) => {
   if (message.author.id === bot.user.id) return;
 
-  const match = messages.filter(v => message.toLowerCase().includes(v.toLowerCase()));
+  const match = messages.filter((v) =>
+    message.content.toLowerCase().includes(v.wrong.toLowerCase())
+  );
 
   if (match.length === 0) return;
 
-  message.reply(`❌ ${match.map(v => v.wrong).join(", ")}\n✅ ${match.map(v => v.right).join(", ")}`)
+  message.reply(
+    `❌ ${match.map((v) => v.wrong).join(", ")}\n✅ ${match
+      .map((v) => v.right)
+      .join(", ")}`
+  );
 });
 
 bot.login(process.env.TOKEN);
