@@ -1,8 +1,5 @@
-const { Client, MessageAttachment } = require("discord.js");
+const { Client } = require("discord.js");
 const { config } = require("dotenv");
-const messages = require("./db.json");
-const utils = require("./Util");
-const canva = new utils();
 
 config();
 
@@ -11,49 +8,25 @@ const bot = new Client({
   allowedMentions: { parse: ["users", "roles"], repliedUser: true },
 });
 
-bot.on("ready", () => {
-  console.log(`${bot.user.tag} is online!`);
-});
+bot.prefix = "!"
+bot.commands = new Discord.Collection();
+bot.categories = readdirSync(join(__dirname, "./commands"));
 
-bot.on("messageCreate", (message) => {
-  if (message.author.id === bot.user.id) return;
+// Event handler
+readdirSync(join(__dirname, "./events")).forEach(file =>
+    bot.on(file.split(".")[0], (...args) => require(`./events/${file}`)(client, ...args))
+);
 
-  const match = messages.filter((v) =>
-    message.content.toLowerCase().includes(v.wrong.toLowerCase())
-  );
+// Command Loader
+for (let i = 0; i < bot.categories.length; i++) {
+    const commands = readdirSync(join(__dirname, `./commands/${bot.categories[i]}`)).filter(file => file.endsWith(".js"));
 
-  if (match.length === 0) return;
-
-  message.reply(
-    `❌ ${match.map((v) => v.wrong).join(", ")}\n✅ ${match
-      .map((v) => v.right)
-      .join(", ")}`
-  );
-});
-
-bot.on("messageCreate", (message) => {
-  const command = (name) =>
-    message.content.toLowerCase().startsWith("!" + name);
-
-  if (command("help")) {
-    message.reply("namaskaram");
-  }
-
-  if (command("test")) {
-    let welcomer = canva.welcome(message.member, {
-      bgimg: "https://cdn.discordapp.com/attachments/955519944882274405/957143572304502824/adiyogi.png",
-      shadow: true,
-      theme: "light",
-      blur: false,
-    });
-
-    const attachment = new MessageAttachment(welcomer, `welcome.jpg`);
-
-    message.channel.send({
-      content: `Welcome ${message.member.toString()} Hope you enjoy your stay!`,
-      files: [attachment],
-    });
-  }
-});
+    for (let j = 0; j < commands.length; j++) {
+        const command = require(`./commands/${bot.categories[i]}/${commands[j]}`);
+        if (!command || !command?.data?.name || typeof (command?.run) !== "function") continue;
+        command.category = bot.categories[i];
+        bot.commands.set(command.data.name, command);
+    }
+}
 
 bot.login(process.env.TOKEN);
