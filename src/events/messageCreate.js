@@ -1,7 +1,7 @@
 const messages = require("../db.json");
 
 module.exports = (bot, message) => {
-    if (message.author.id === bot.user.id) return;
+    if (message.author.bot) return;
 
     const match = messages.filter((v) =>
         message.content.toLowerCase().includes(v.wrong.toLowerCase())

@@ -9,7 +9,7 @@ module.exports = {
      * @param {Message} message 
      * @param {string[]} args 
      */
-    run(client, message, args) {
+    async run(client, message, args) {
         message.reply("namaskaram")
     }
 }

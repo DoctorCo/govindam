@@ -1,4 +1,6 @@
-const { Client } = require("discord.js");
+const { readdirSync } = require('fs');
+const { join } = require('path');
+const { Client, Collection } = require("discord.js");
 const { config } = require("dotenv");
 
 config();
@@ -9,24 +11,29 @@ const bot = new Client({
 });
 
 bot.prefix = "!"
-bot.commands = new Discord.Collection();
+bot.commands = new Collection();
 bot.categories = readdirSync(join(__dirname, "./commands"));
-
-// Event handler
-readdirSync(join(__dirname, "./events")).forEach(file =>
-    bot.on(file.split(".")[0], (...args) => require(`./events/${file}`)(client, ...args))
-);
 
 // Command Loader
 for (let i = 0; i < bot.categories.length; i++) {
-    const commands = readdirSync(join(__dirname, `./commands/${bot.categories[i]}`)).filter(file => file.endsWith(".js"));
+  const commands = readdirSync(join(__dirname, `./commands/${bot.categories[i]}`)).filter(file => file.endsWith(".js"));
 
-    for (let j = 0; j < commands.length; j++) {
-        const command = require(`./commands/${bot.categories[i]}/${commands[j]}`);
-        if (!command || !command?.data?.name || typeof (command?.run) !== "function") continue;
-        command.category = bot.categories[i];
-        bot.commands.set(command.data.name, command);
-    }
+  for (let j = 0; j < commands.length; j++) {
+    const command = require(`./commands/${bot.categories[i]}/${commands[j]}`);
+    
+    if (!command || !command?.name || typeof (command?.run) !== "function") continue;
+
+    console.log(`Added ${command.name} command`)
+
+    command.category = bot.categories[i];
+
+    bot.commands.set(command.name, command);
+  }
 }
+
+// Event handler
+readdirSync(join(__dirname, "./events")).forEach(file =>
+  bot.on(file.split(".")[0], (...args) => require(`./events/${file}`)(bot, ...args))
+);
 
 bot.login(process.env.TOKEN);

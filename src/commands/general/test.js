@@ -1,7 +1,8 @@
-const { Client, Message } = require('discord.js');
+const { Client, Message, MessageAttachment } = require('discord.js');
+const canva = new (require('../../Util'));
 
 module.exports = {
-    name: "help",
+    name: "test",
 
     /**
      * 
@@ -9,7 +10,7 @@ module.exports = {
      * @param {Message} message 
      * @param {string[]} args 
      */
-    run(client, message, args) {
+    async run(client, message, args) {
         let welcomer = await canva.welcome(message.member, {
             bgimg: "https://cdn.discordapp.com/attachments/955519944882274405/957143572304502824/adiyogi.png",
             shadow: true,
