@@ -3,9 +3,7 @@ const messages = require("../db.json");
 module.exports = (bot, message) => {
     if (message.author.bot) return;
 
-    const match = messages.filter((v) =>
-        message.content.toLowerCase().includes(v.wrong.toLowerCase())
-    );
+    const match = messages.filter((v) => message.content.toLowerCase().includes(v.wrong.toLowerCase() + " ") || message.content.endsWith(v.wrong.toLowerCase()));
 
     if (match.length === 0) return;
 
