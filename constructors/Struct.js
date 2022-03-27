@@ -1,36 +1,23 @@
 const Canvas = require("canvas");
 const jimp = require("jimp");
-Canvas.registerFont("./assets/NotoSans-Bold.ttf", { family: "Noto Sans" });
+Canvas.registerFont("assets/NotoSans-Regular.ttf", { family: "Noto Sans" });
+Canvas.registerFont("assets/Poppins-Bold.ttf", { family: "Poppins" });
 
-class Utils {
-  constructor() {
-    console.log("Helper class booted up!");
-  }
-
-  async welcome(member, { bgimg, shadow, theme, blur } = {}) {
+module.exports = class Struct {
+  static async welcome(member, { bgimg, shadow, theme, blur } = {}) {
     blur !== false ? (blur = true) : blur;
-    if (!bgimg) {
-      throw new Error("A background img must be provided");
-    }
+
+    if (!bgimg) throw new Error("A background img must be provided");
+    if (!shadow) shadow = false;
+    if (!theme) theme = "light";
+    if (!blur) blur = false;
     if (!shadow) {
-      shadow = false;
-    }
-    if (!theme) {
-      theme = "light";
-    }
-    if (!blur) {
-      blur = false;
-    }
-
-    if (shadow === false) {
       shadow = "transparent";
-    } else if (shadow === true) {
+    } else if (shadow) {
       shadow = "#000000";
-    } else {
-      throw new TypeError("Shdow must be a boolean");
-    }
+    } else throw new TypeError("Shdow must be a boolean");
 
-    var color = "#191919";
+    var color;
 
     if (theme === "light") {
       color = "#e3e3e3";
@@ -41,22 +28,20 @@ class Utils {
     }
 
     const canvas = Canvas.createCanvas(1024, 420);
-
     const context = canvas.getContext("2d");
+    
 
-    if (blur === true) {
+    if (blur) {
       const background = await jimp.read(bgimg);
+      background.blur(4);
 
-      background.blur(5);
+      
+      const fixedbkg = await Canvas.loadImage(await background.getBufferAsync("image/png"));
 
-      let mraw = await background.getBufferAsync("image/png");
-
-      const fixedbkg = await Canvas.loadImage(mraw);
-
-      context.drawImage(fixedbkg, 16, 7, canvas.width, canvas.height);
+      context.drawImage(fixedbkg, 0, 0, canvas.width, canvas.height);
       context.save();
-    } else if (blur === false) {
-      const fixedbkg = await Canvas.loadImage(bgimg);
+    } else if (!blur) {
+      const fixedbkg = await Canvas.loadImage(bgimg);await background.getBufferAsync("image/png")
 
       context.drawImage(fixedbkg, 0, 0, canvas.width, canvas.height);
       context.save();
@@ -66,7 +51,6 @@ class Utils {
     context.arc(496, 150, 100, 0, Math.PI * 2, true);
     context.shadowColor = shadow;
     context.shadowBlur = 100;
-    context.lineWidth = 0;
     context.shadowOffsetX = 1;
     context.shadowOffsetY = 1;
     context.stroke();
@@ -87,20 +71,16 @@ class Utils {
     context.strokeRect(0, 0, canvas.width, canvas.height);
     context.drawImage(avatar, 396, 50, 200, 200);
     context.restore();
-    context.font = `48px 'Noto Sans'`;
+    context.font = `48px 'Poppins'`;
     context.fillStyle = color;
-    context.shadowOffsetX = 1;
-    context.shadowOffsetY = 1;
     context.textAlign = "center";
     context.fillText(`${name} #${member.user.discriminator}`, 526, 315);
 
     const { guild } = member;
     context.font = `38px 'Noto Sans'`;
     context.fillStyle = color;
-    context.fillText(`Member # ${guild.memberCount}`, 496, 378);
+    context.fillText(`Member #${guild.memberCount}`, 496, 378);
 
     return canvas.toBuffer();
   }
-}
-
-module.exports = Utils;
+};

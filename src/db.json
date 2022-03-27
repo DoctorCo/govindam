@@ -39,6 +39,7 @@
     "wrong": "ailaan",
     "right": "ghoshna"
   },
+
   {
     "wrong": "ajeeb",
     "right": "vichitra"
@@ -412,6 +413,10 @@
     "right": "vishwa"
   },
   {
+    "wrong": "janaab",
+    "right": "bhrata"
+  },
+  {
     "wrong": "jarur",
     "right": "avashya"
   },
@@ -456,6 +461,14 @@
     "right": "swikaar"
   },
   {
+    "wrong": "kabza",
+    "right": "jabt"
+  },
+  {
+    "wrong": "kabja",
+    "right": "jabt"
+  },
+  {
     "wrong": "kamzor",
     "right": "nirbal"
   },
@@ -470,6 +483,10 @@
   {
     "wrong": "khaasiyat",
     "right": "visheshta"
+  },
+  {
+    "wrong": "khabar",
+    "right": "samachar"
   },
   {
     "wrong": "khali",
