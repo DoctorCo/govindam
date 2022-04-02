@@ -1,6 +1,6 @@
 const Canvas = require("canvas");
 const jimp = require("jimp");
-Canvas.registerFont("assets/NotoSans-Regular.ttf", { family: "Noto Sans" });
+
 Canvas.registerFont("assets/Poppins-Bold.ttf", { family: "Poppins" });
 Canvas.registerFont("assets/Quicksand-Bold.ttf", { family: "Quicksand" });
 
