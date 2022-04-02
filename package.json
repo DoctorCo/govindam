@@ -1,0 +1,24 @@
+{
+  "name": "govindam",
+  "version": "1.0.0",
+  "description": "Coolest bot ever",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "main": "src/index.js",
+  "repository": "https://github.com/DoctorCo/govindam",
+  "author": "https://github.com/DoctorCo",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "canvacord": "^5.2.3",
+    "canvas": "^2.9.1",
+    "discord-xp": "^1.1.16",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "glob": "^7.2.0",
+    "jimp": "^0.16.1",
+    "mongoose": "^6.2.9",
+    "ms": "^2.1.3"
+  }
+}
