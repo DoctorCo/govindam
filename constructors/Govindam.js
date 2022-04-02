@@ -12,10 +12,11 @@ module.exports = class Govindam extends Client {
       partials: ["REACTION", "MESSAGE", "CHANNEL"],
     });
 
-    this.prefix = "g!";
     this.commands = new Collection();
     this.aliases = new Collection();
     this.slash = new Collection();
+
+    this.owners = ["725278824975040512", "723049421021118535"];
   }
 
   async start(token) {
@@ -26,19 +27,6 @@ module.exports = class Govindam extends Client {
       useUnifiedTopology: true,
     });
 
-    // command handler
-    let commandNames = await Utils.search(
-      `${process.cwd()}/src/commands/**/*.js`
-    );
-    commandNames.forEach((f) => {
-      const file = require(f);
-      this.commands.set(file.config.name, file);
-      file.config.aliases && 7;
-      file.config.aliases.forEach((a) => {
-        this.aliases.set(a, file.config.name);
-      });
-    });
-
     // event handler
 
     readdirSync(join(process.cwd(), "/src/events")).forEach((file) =>
@@ -47,9 +35,13 @@ module.exports = class Govindam extends Client {
       )
     );
 
-    let slashNames = await Utils.search(`${process.cwd()}/src/slash/**/*.js`);
+    // command handler
 
-    slashNames.forEach((f) => {
+    let commandNames = await Utils.search(
+      `${process.cwd()}/src/commands/**/*.js`
+    );
+
+    commandNames.forEach((f) => {
       const command = require(f);
       if (
         !command ||
