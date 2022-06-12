@@ -16,7 +16,7 @@ module.exports = class Govindam extends Client {
     this.aliases = new Collection();
     this.slash = new Collection();
 
-    this.owners = ["725278824975040512", "723049421021118535"];
+    this.owners = ["979950701637677116"];
   }
 
   async start(token) {
